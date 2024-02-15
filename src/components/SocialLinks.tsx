@@ -1,9 +1,9 @@
 import React from "react";
 import Link from "next/link";
 
-const NavLinks = () => {
+const SocialLinks = () => {
   return (
-    <div className='max-w-width fixed bottom-0 left-0 ml-4 mb-16'>
+    <div className='max-w-socialLinks fixed bottom-0 left-0 ml-4 mb-16'>
       <ul className='flex gap-5'>
         <li className=''>
           <Link href='https://github.com/yogeshkumar94s'>
@@ -85,4 +85,4 @@ const NavLinks = () => {
   );
 };
 
-export default NavLinks;
+export default SocialLinks;

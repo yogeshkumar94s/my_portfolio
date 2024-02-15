@@ -16,7 +16,7 @@ const config: Config = {
       },
       maxWidth:{
         header: "1920px",
-        socialLinks: "1px",
+        socialLinks: "1920px",
       },
   },
   plugins: [],

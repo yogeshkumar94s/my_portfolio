@@ -2,8 +2,7 @@ import Header from "@/components/Header";
 import About from "@/components/About";
 import Projects from "@/components/Projects";
 import Contact from "@/components/Contact";
-import Link from "next/link";
-import NavLinks from "@/components/NavLinks";
+import SocialLinks from "@/components/SocialLinks";
 
 export default function Home() {
   return (
@@ -19,7 +18,7 @@ export default function Home() {
         <Contact />
       </section>
       <section>
-        <NavLinks />
+        <SocialLinks />
       </section>
     </main>
   );
